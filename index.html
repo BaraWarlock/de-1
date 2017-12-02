@@ -4,16 +4,12 @@
 <head>
 <meta charset="utf-8">
 <title>NAME</title>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-<button onclick="goBack()">Return to Menu</button>
-<script>
-function goBack() {
-    window.history.back();
-}
-</script>
+<a href="#" onClick="history.go(-1);return true;">Return to Menu</a>
 </body>

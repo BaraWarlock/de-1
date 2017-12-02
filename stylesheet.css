@@ -1,0 +1,45 @@
+body {
+	background-color: #000;	
+	background-image: url(background.jpg);
+	background-size: cover;
+	background position: fixed;
+	background-repeat: no-repeat;
+	text-shadow: 1px 1px rgba(0,0,0,.5);
+	color: #9254af;
+	overflow: hidden;
+	font-family: Verdana;
+	font-size: 13px;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb:vertical {
+    width: 5px;
+    background-color: #522E5F;
+    padding: 1px;
+}
+
+@font-face {
+	font-family: Handwriting;
+	src: url(DearJoe.otf);
+}
+
+div {
+	position: absolute;    
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+img {
+	max-height: 100%;
+	position: absolute;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 25px;
+	font-family: Handwriting;
+}
